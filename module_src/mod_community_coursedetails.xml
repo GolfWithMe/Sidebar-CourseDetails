@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="module" client="site" method="upgrade">
+	<name>Golf Course</name>
+	<author>iIndia</author>
+	<creationDate>April 2017</creationDate>
+	<copyright>Copyright (C) 2017 iIndia. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@iindia.com</authorEmail>
+	<authorUrl>http://iindia.com</authorUrl>
+	<version>4.1</version>
+	<description>Golf Course module for JomSocial. Display upcoming and current courses.</description>
+	<files>
+		<filename module="mod_community_coursedetails">mod_community_coursedetails.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>mod_community_coursedetails.xml</filename>
+	</files>
+    <languages>
+        <language tag="en-GB">en-GB.mod_community_coursedetails.ini</language>
+    </languages>
+</extension>

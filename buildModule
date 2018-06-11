@@ -1,0 +1,3 @@
+cp -r /usr/share/nginx/html/modules/mod_community_coursedetails/* module_src
+zip -r mod_community_coursedetails module_src
+
